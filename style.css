@@ -1,26 +1,27 @@
 nav {
     background-color: white;
-    height: 75px;
 }
 
 .navbar {
- padding-top: 0px;
- padding-bottom: 0px;
+ padding: 0px 50px;
 }
 
-.container {
-    min-height: 400px;
-}
+
+
 .navName {
     background-color: #599992;
     height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 15px;
     font-family: serif;
     font-size: 20px;
     font-weight: 700;
     color: white;
-    
+}
+
+.btn {
+    background-color: #599992;
+    border: #599992;
+    margin-bottom: 20px;
 }
 
 
@@ -29,14 +30,22 @@ body {
 }
 
 h1 {
+    font-family: serif;
     padding-top: 20px;
     color: #599992;
 }
 
-.aboutMeContent {
+.mainContent {
     background-color: white;
     border: .5px solid lightgray;
-    margin: 50px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.card {
+    border: none;
 }
 
 .left {
@@ -45,12 +54,26 @@ h1 {
     padding: 0 20px 20px 0;
     }
 
+footer {
+    background-color:#4C5459;
+    color: white;
+    border-top: 3px solid #599992;
+    margin-top: 200px;
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
 @media only screen and (max-width: 768px) {
     .left {
         width: 50%;
     }
 
-    .aboutMeContent {
+    .mainContent {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -63,7 +86,7 @@ h1 {
         width: 100%;
     }
 
-    .aboutMeContent {
+    .mainContent {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
